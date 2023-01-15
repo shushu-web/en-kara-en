@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>園から円計算ツール
+    <title>園から円・円から園計算ツール
     </title>
 </head>
 <body>
-    <h1>園から円計算ツール</h1><br><br>
+    <h1>園から円・円から園計算ツール</h1><br><br>
+    <h3>園から円</h3><br>
     <form oninput="op3.value = Number(e.value) * 12">
         <input type="number" name="e" id="e" value="0" size="5">
         園
         ＝ <output name="op3" for="e f">0</output>円
       </form>
       <br><br>
+    <h4>円から園</h4>
+    <form oninput="op4.value = Number(g.value) / 12">
+        <input type="number" name="g" id="g" value="0" size="5">
+        円
+        ＝ <output name="op4" for="g h">0</output>園
+      </form><br><br>
       <p>created by 旬</p>
 </body>
 </html>
